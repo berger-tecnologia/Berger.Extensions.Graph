@@ -18,5 +18,6 @@ namespace Berger.Extensions.Graph
         public ICollection<Port> Ports { get; set; }
         public ICollection<Edge> OutgoingEdges { get; set; }
         public ICollection<Edge> IncomingEdges { get; set; }
+        public ICollection<NodeAttributeGroup> NodeAttributeGroups { get; set; }
     }
 }

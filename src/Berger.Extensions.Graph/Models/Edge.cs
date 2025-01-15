@@ -5,7 +5,7 @@ namespace Berger.Extensions.Graph
     public class Edge : BaseEntity
     {
         public Guid SourceNodeId { get; set; }
-        public Node SourceSourceNode { get; set; }
+        public Node SourceNode { get; set; }
         public Guid TargetNodeId { get; set; }
         public Node TargetNode { get; set; }
         public Guid SourcePortId { get; set; }
