@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7163ABAC-EA34-4A48-A537-517163521DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berger.Extensions.Graph", "Berger.Extensions.Graph\Berger.Extensions.Graph.csproj", "{F564AB4F-735B-4853-B9B3-F5146B2F7FC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extensions", "extensions", "{8B64F845-E0FA-4AFA-9EF7-7957D7682FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berger.Extensions.Abstractions", "..\..\Berger.Extensions.Abstractions\src\Berger.Extensions.Abstractions\Berger.Extensions.Abstractions.csproj", "{0901C6E9-B5DC-4301-B10F-97082708AD6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F564AB4F-735B-4853-B9B3-F5146B2F7FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F564AB4F-735B-4853-B9B3-F5146B2F7FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F564AB4F-735B-4853-B9B3-F5146B2F7FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F564AB4F-735B-4853-B9B3-F5146B2F7FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0901C6E9-B5DC-4301-B10F-97082708AD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0901C6E9-B5DC-4301-B10F-97082708AD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0901C6E9-B5DC-4301-B10F-97082708AD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0901C6E9-B5DC-4301-B10F-97082708AD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F564AB4F-735B-4853-B9B3-F5146B2F7FC4} = {7163ABAC-EA34-4A48-A537-517163521DAD}
+		{0901C6E9-B5DC-4301-B10F-97082708AD6C} = {8B64F845-E0FA-4AFA-9EF7-7957D7682FE8}
+	EndGlobalSection
+EndGlobal
