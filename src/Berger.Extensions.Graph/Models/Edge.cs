@@ -8,10 +8,10 @@ namespace Berger.Extensions.Graph
         public Node SourceNode { get; set; }
         public Guid TargetNodeId { get; set; }
         public Node TargetNode { get; set; }
-        public Guid SourcePortId { get; set; }
+        public Guid? SourcePortId { get; set; }
         public Port SourcePort { get; set; }
-        public Guid TargetPortId { get; set; }
+        public Guid? TargetPortId { get; set; }
         public Port TargetPort { get; set; }
-        public string Label { get; set; }     
+        public RelationshipType RelationshipType { get; set; }     
     }
 }
