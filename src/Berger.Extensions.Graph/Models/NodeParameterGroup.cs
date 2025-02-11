@@ -2,11 +2,11 @@
 
 namespace Berger.Extensions.Graph
 {
-    public class NodeAttributeGroup : BaseEntity
+    public class NodeParameterGroup : BaseEntity
     {
+        public Guid ParameterGroupId { get; set; }
+        public ParameterGroup ParameterGroup { get; set; }
         public Guid NodeId { get; set; }
         public Node Node { get; set; }
-        public Guid AttributeGroupId { get; set; }
-        public AttributeGroup AttributeGroup { get; set; }
     }
 }
