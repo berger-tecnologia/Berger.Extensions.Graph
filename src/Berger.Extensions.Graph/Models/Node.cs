@@ -7,15 +7,16 @@ namespace Berger.Extensions.Graph
         // Temporários
         public Guid TenantId { get; set; }
         public Guid? SourceNodeId { get; set; }
+        public string Environment { get; set; }
         // Temporários
 
         public Guid NodeTypeId { get; set; }
         public NodeType NodeType { get; set; }
         public Guid? TargetNodeId { get; set; }
-        public RelationshipType RelationshipType { get; set; }
         public Guid? CategoryId { get; set; }
         public Guid? TokenId { get; set; }
         public Guid? ResolverId { get; set; }
+        public RelationshipType RelationshipType { get; set; }
         public string Name { get; set; }
         public string Label { get; set; }
         public string File { get; set; }
