@@ -4,8 +4,7 @@
     {
         // Temporários
         public Guid? TargetNodeId { get; set; }
-        public Guid? ParameterGroupId { get; set; }
-        
+        public Guid? ParameterGroupId { get; set; }        
 
         #region Properties
         public Pattern Pattern { get; set; }
