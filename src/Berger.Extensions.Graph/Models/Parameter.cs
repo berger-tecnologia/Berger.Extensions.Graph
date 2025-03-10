@@ -2,15 +2,9 @@
 {
     public class Parameter : ParameterContract
     {
-        // Temporários
-        public Guid? TargetNodeId { get; set; }
-        public Guid? ParameterGroupId { get; set; }        
-
-        #region Properties
-        public Pattern Pattern { get; set; }
-        //public Language Language { get; set; }
-        //public ParameterGroup ParameterGroup { get; set; }
-        #endregion
+        // Pendente: Traduções
+        //public string LanguageCode { get; set; } // "en", "es", "fr"
+        //public string Value { get; set; } // Translated value
 
         #region Constructors
         public Parameter()
