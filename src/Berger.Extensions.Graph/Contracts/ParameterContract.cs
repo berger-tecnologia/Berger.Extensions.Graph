@@ -5,7 +5,7 @@ namespace Berger.Extensions.Graph
     public class ParameterContract : BaseEntity
     {
         #region Properties
-        public Guid? GroupId { get; set; }
+        public Guid GroupId { get; set; }
         public Guid? EntityId { get; set; }
         // Add Virtual
         public string Name { get; set; }
