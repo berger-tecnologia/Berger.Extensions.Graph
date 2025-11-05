@@ -20,7 +20,7 @@ namespace Berger.Extensions.Graph
         public string Name { get; set; }
         //public string Label { get; set; }
         //public string File { get; set; }
-        //public string Uuid { get; set; }
+        //public string Uid { get; set; }
         //public string Uri { get; set; }
         //public string Comment { get; set; }
         //public string Content { get; set; }
