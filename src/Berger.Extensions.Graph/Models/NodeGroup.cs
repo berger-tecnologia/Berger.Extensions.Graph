@@ -6,7 +6,6 @@ namespace Berger.Extensions.Graph
     {
         public Node Node { get; set; }
         public Guid NodeId { get; set; }
-
         public Guid GroupId { get; set; }
 
         //public Parameter Parameter { get; set; }
