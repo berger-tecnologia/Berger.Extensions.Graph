@@ -30,7 +30,8 @@ namespace Berger.Extensions.Graph
         //public string Icon { get; set; }
         //public double PositionX { get; set; }
         //public double PositionY { get; set; }
-        public int Index { get; set; }
+        public int Index { get; set; } = 0;
+        public int Sequence { get; set; } = 0;
         public ICollection<Port> Ports { get; set; }
         public ICollection<Edge> OutgoingEdges { get; set; }
         public ICollection<Edge> IncomingEdges { get; set; }

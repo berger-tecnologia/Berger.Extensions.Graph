@@ -21,6 +21,6 @@ namespace Berger.Extensions.Graph
         public RelationshipType RelationshipType { get; set; }
 
         public string Path { get; set; }
-        public int Index { get; set; } = 0;
+        public int Sequence { get; set; } = 0;
     }
 }

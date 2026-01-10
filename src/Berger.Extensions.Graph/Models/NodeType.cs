@@ -8,6 +8,6 @@ namespace Berger.Extensions.Graph
         public string Name { get; set; }
         public string Code { get; set; }
         //public string Path { get; set; }
-        public int Index { get; set; }
+        public int Sequence { get; set; } = 0;
     }
 }
